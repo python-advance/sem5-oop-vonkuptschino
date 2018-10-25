@@ -8,7 +8,7 @@
     def __init__(self, Autor, Zeitmark, Inhalt):
         self.Autor = Autor  #Автор
         self.Zeitmark = Zeitmark  #Дата
-        self.Inhalt = Inhalt  #Соддержание записи
+        self.Inhalt = Inhalt  #Содержание записи
 
 class Kommentar(Nachricht):   #класс Комментарий наследует класс Запись (у комментария тоже есть Автор, Дата и Содержание
 	
