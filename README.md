@@ -59,4 +59,4 @@ for tweet in tweets:
     status = api.update_status(tweet)
     time.sleep(120)  #промежуток 120 секунд
 ```
-[мои твиты](tweets.png)
+[!мои твиты](tweets.png)
